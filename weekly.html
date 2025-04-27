@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Questions - Cultural Dialogue Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .weekly-container {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 2rem;
+        }
+
+        .question-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .status-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.25rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .current {
+            background: #48bb78;
+            color: white;
+        }
+
+        .previous {
+            background: #a0aec0;
+            color: white;
+        }
+
+        .question-card h3 {
+            color: #2d3748;
+            margin-bottom: 1rem;
+            padding-right: 100px;
+        }
+
+        .question-card p {
+            color: #4a5568;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
+
+        .responses {
+            color: #718096;
+        }
+
+        .join-discussion {
+            background: #2b6cb0;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .join-discussion:hover {
+            background: #2c5282;
+        }
+
+        .telegram-cta {
+            text-align: center;
+            padding: 2rem;
+            background: #f7fafc;
+            border-radius: 10px;
+            margin-top: 3rem;
+        }
+
+        .telegram-cta p {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body class="weekly-page">
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Cultural Dialogue Hub</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="share.html">Share Your Culture</a></li>
+                <li><a href="weekly.html">Weekly Questions</a></li>
+                <li><a href="https://t.me/culturaldialoguee" class="join-btn">Join Chat</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="weekly-container">
+        <h2>Weekly Cultural Questions</h2>
+        <p>Every week, we pose a new question about different cultural practices. Join the discussion and share your perspective!</p>
+
+        <!-- Current Question -->
+        <div class="question-card">
+            <span class="status-badge current">Current</span>
+            <h3>What's the strangest custom in your country that might surprise others?</h3>
+            <p>Share a unique cultural practice that visitors to your country might find unusual or interesting.</p>
+            <div class="card-footer">
+                <span class="responses">24 responses</span>
+                <a href="https://t.me/culturaldialoguee" class="join-discussion" target="_blank">Join Discussion</a>
+            </div>
+        </div>
+
+        <!-- Previous Questions -->
+        <div class="question-card">
+            <span class="status-badge previous">Previous</span>
+            <h3>How does your culture celebrate the arrival of spring?</h3>
+            <p>Tell us about traditional spring festivals, customs, or celebrations in your culture.</p>
+            <div class="card-footer">
+                <span class="responses">18 responses</span>
+                <a href="https://t.me/culturaldialoguee" class="join-discussion" target="_blank">View Responses</a>
+            </div>
+        </div>
+
+        <div class="question-card">
+            <span class="status-badge previous">Previous</span>
+            <h3>What's a traditional game from your childhood that represents your culture?</h3>
+            <p>Share games that have been passed down through generations in your community.</p>
+            <div class="card-footer">
+                <span class="responses">31 responses</span>
+                <a href="https://t.me/culturaldialoguee" class="join-discussion" target="_blank">View Responses</a>
+            </div>
+        </div>
+
+        <div class="telegram-cta">
+            <p>Want to suggest a question for next week? Join our Telegram group and share your ideas!</p>
+            <a href="https://t.me/culturaldialoguee" class="primary-btn" target="_blank">Join Telegram Group</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2024 Cultural Dialogue Hub. All rights reserved</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://t.me/culturaldialoguee">Telegram</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSej1wG_FW0ohMgeck8NwLhUis_4uAwHHiRZJq2Njjs0zBct6w/viewform">Submit Content</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
